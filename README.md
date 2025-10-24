@@ -2,7 +2,7 @@
 
 # About Me
 
-I’m a software engineer who recently completed his **Master’s in Computer Science at Georgia Tech**, passionate about building systems from the ground up — from compilers and distributed frameworks to AI infrastructure.  
+I’m a software engineer who recently completed his **Master’s in Computer Science at Georgia Tech**, passionate about building systems from the ground up — from compilers and distributed frameworks to parallel computing and AI infrastructure.  
 Some of these projects began as course work, and others are personal explorations that evolved into ongoing experiments.
 
 ---
@@ -11,14 +11,16 @@ Some of these projects began as course work, and others are personal exploration
 
 ### Compiler from Scratch  
 **Overview:**  
-Designed and implemented a full-stack compiler for a custom Tiger-like programming language, covering lexical analysis, parsing, semantic analysis, and code generation.  
-**Tech:** C++, LLVM, CMake, GNU Debugger (GDB)  
+Designed and implemented a full-stack compiler for a custom Tiger-like programming language, covering lexical analysis, parsing, semantic analysis, register allocation, intermediate representation (IR), 
+code optimization, and code generation.  
+**Tech:** C++, LLVM, CMake, GNU Debugger (GDB), ANTLR4
 
 ---
 
 ### Distributed Collective and Sorting Operations  
 **Overview:**  
-Developed custom implementations of distributed collective operations (e.g., Broadcast, Gather, Reduce) optimized for clarity, scalability, and efficiency.  
+Developed custom implementations of distributed collective operations (e.g., Broadcast, Gather, Reduce) optimized for clarity, scalability, and efficiency. 
+Also implemented Wylie’s ranking algorithm as well as distributed sorting algorithms. 
 **Tech:** C/C++, OpenMP, OpenMPI, CUDA  
 
 ---
